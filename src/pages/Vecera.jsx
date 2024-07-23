@@ -29,7 +29,7 @@ const Vecera = () => {
 
             {/* Večer Pánova */}
           </h1>
-          <div className='py-8 mx-4 lg:mx-8'>
+          <div className='py-8 px-4 lg:px-[5%]'>
             <h3 className='text-center my-8'>
               {content.sSub1}
               {/* Chceš si uctiť pamiatku Ježiša Krista? */}

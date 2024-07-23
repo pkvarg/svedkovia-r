@@ -27,7 +27,7 @@ const Jezis = () => {
           {content.jTitle}
           {/* Je Ježiš Boh? */}
         </h1>
-        <div className='py-8 mx-4 lg:mx-8'>
+        <div className='py-8 px-4 lg:px-[5%]'>
           <p>
             {content.jText1}
             {/* Byť Bohom znamená mať jedinečné božské vlastnosti, ktoré nemá žiadna

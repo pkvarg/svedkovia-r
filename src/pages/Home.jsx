@@ -44,7 +44,7 @@ const Home = () => {
           <LanguageBar language={language} setLanguage={setLanguage} />
         </div>{' '}
         {/* <HeaderHome language={language} setLanguage={setLanguage} /> */}
-        <h1 className='text-[32.5px] lg:text-[45px] leading-[40px] lg:leading-[50px] text-brown3 text-center pt-[70%] lg:pt-[5%] lg:mx-4'>
+        <h1 className='text-[32.5px] lg:text-[45px] leading-[40px] lg:leading-[50px] text-brown3 text-center pt-[70%] lg:pt-[5%] lg:mx-[5%]'>
           {content.heroTitle}
           {/* Svedok je ten, kto mal osobnú skúsenosť a o nej vypovedá */}
         </h1>
@@ -53,7 +53,7 @@ const Home = () => {
           {/* Nespoliehaj sa na výklady organizácie, poď do Božieho Slova! */}
         </h2>
       </header>
-      <main className=' bg-white px-4 lg:px-8 pb-8 lg:pb-16'>
+      <main className=' bg-white px-4  lg:px-[5%] pb-8 lg:pb-16'>
         <h3 className='text-brown3 text-center p-8'>
           {content.homeTitle1}
           {/* Kto je v Božom Slove kľúčový pre nás pohanov? */}

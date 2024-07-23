@@ -27,7 +27,7 @@ const Pan = () => {
           {content.pTitle}
           {/* Koho Pánom je Ježiš? */}
         </h1>
-        <div className='py-8 mx-4 lg:mx-8'>
+        <div className='py-8 px-4 lg:px-[5%]'>
           <p>
             <span className='italic'>
               {' '}
