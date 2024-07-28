@@ -83,7 +83,7 @@ const Home = () => {
             {content.homeRef2} {/* Židom 10:14 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText2}
           {/* Takže všetko čo robil a čo hovoril je pre nás smerodajné, pretože bez
           Neho by Nová zmluva neexistovala a Starý Zákon by tak ostal platný len
@@ -117,7 +117,7 @@ const Home = () => {
             {content.homeRef4} {/* Skutky apoštolov 1:8 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText4}
           {/* Sám Boh prikázal poslúchať Ježiša. */}
           <span className='italic'>
@@ -130,7 +130,7 @@ const Home = () => {
             {content.homeRef5} {/* Matthew 17:5 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText5}
           {/* Ktorí Mu mali byť svedkami? Bol tento príkaz len pre tam prítomných
           jedenástich apoštolov? Pavol apoštol evanjelizoval pohanom, hoci v
@@ -140,7 +140,7 @@ const Home = () => {
           pre tam prítomných apoštolov, potom storočia po nich by nebol nik, kto
           by mal šíriť zvesť o Ježišovi Kristovi až po dnes. */}
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText6}
           {/* Kde všade povedal Ježiš, že Mu budú svedkami? Až do posledných končín
           zeme. Pavol apoštol a ďalší evanjelizovali v krajinách okolo
@@ -161,7 +161,7 @@ const Home = () => {
           apoštol, ani ostatní evanjelisti Novej Zmluvy, tento príkaz sa týka
           všetkých, ktorí v Neho veria, keďže koniec ešte neprišiel. */}
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText8}
           {/* Čo to znamená byť svedkom? */}
           <span className='italic'>
@@ -219,7 +219,7 @@ const Home = () => {
             {content.homeRef10} {/* Ján 1:12 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText12}
           {/* Čo to znamená veriť v Ježiša Krista? Je to veriť v to, v čo videli a
           verili apoštoli, teda v Jeho smrť, že zomrel za hriechy sveta, v Jeho
@@ -228,7 +228,7 @@ const Home = () => {
           ten, kto určuje pravidlá a príkazy a ten, kto Ho nasleduje, je ten,
           kto ich poslúcha. */}
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText13}
           {/* Čo sa v nás udialo, keď sme boli spasení a stali sme sa deťmi Božími?
           Vstúpil do nás Boží Duch: */}
@@ -259,7 +259,7 @@ const Home = () => {
             {content.homeRef12} {/* Rimanom 8:11 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText14}
           {/* Byť v Kristovi je chodiť podľa ducha: */}
           <span className='italic'>
@@ -282,7 +282,7 @@ const Home = () => {
             {/* Rimanom 8:9 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText15}
           {/* Duch Ježiša Krista ťa oslobodil: */}
           <span className='italic'>
@@ -307,7 +307,7 @@ const Home = () => {
             {/* Rimanom 8:1 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText16}
           {/* Tento Duch vedie človeka: */}
           <span className='italic'>
@@ -320,7 +320,7 @@ const Home = () => {
             {content.homeRef17} {/* Rimanom 8:14 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText17}
           {/* Sme chrám Ducha Svätého: */}
           <span className='italic'>
@@ -353,14 +353,14 @@ const Home = () => {
             {content.homeRef19} {/* Druhý Timotejovi 4:22 */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText19}
           {/* Preto aj keď Ho nevidíme, môžeme Ho vnútorne vnímať skrze Jeho Ducha.
           Máme teda osobnú skúsenosť hoci sme Ho nikdy nevideli a tak môžeme byť
           svedkami Ježiša Krista, že skutočne žije. Lebo žije v nás a to sa nedá
           nepociťovať. */}
         </p>
-        <p>
+        <p className='mt-2'>
           {content.homeText20}
           {/* Aký by to malo zmysel veriť a zároveň byť bez osobného vzťahu s Bohom?
           Veriť v Boha, ktorý sedí tam hore v nebi a ja len verím, že On to tu
@@ -376,7 +376,7 @@ const Home = () => {
           {content.homeTitle5}
           {/* Božie Slovo ti udá správny smer */}
         </h3>
-        <p>
+        <p className='mt-2'>
           <span className='italic'>
             {' '}
             {content.homeVerse20}{' '}
@@ -410,7 +410,7 @@ const Home = () => {
             {/* Jeho Meno? */}
           </span>
         </p>
-        <p>
+        <p className='mt-2'>
           <span className='italic'>
             {' '}
             {content.homeVerse22}
