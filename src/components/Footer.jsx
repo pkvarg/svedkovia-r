@@ -85,7 +85,7 @@ const Footer = () => {
             </a>
           )} */}
         </div>
-        <div className='flex justify-center mt-2'>
+        <div className='flex justify-center mt-2 text-[14px] !text-[#8b8990]'>
           <a href='https://pictusweb.sk'>
             &#60;&#47;&#62; PICTUSWEB development
           </a>
