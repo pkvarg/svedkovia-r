@@ -103,8 +103,9 @@
     "homeRef23": "Skutky apoštolov 9:17",
     "homeBold2": "Nesieš aj ty pred pohanov Jeho Meno?",
 
-    "cookiesText": "Táto stránka nezhromažďuje žiadne údaje",
-    "cookiesButton": "Pokračovať",
+    "cookiesText": "Táto stránka používa analytické nástroje na sledovanie návštevnosti. Kliknutím na 'Súhlasiť' povolíte zhromažďovanie anonymných údajov o návštevnosti.",
+    "cookiesButton": "Súhlasiť",
+    "cookiesDeclineButton": "Odmietnuť",
 
     "ftLi1": "Čo hlásali apoštoli?",
     "ftLi2": "Je Ježiš Boh?",
@@ -217,8 +218,9 @@
     "homeRef23": "Acts 9:17",
     "homeBold2": "Do you also carry His Name before the Gentiles?",
 
-    "cookiesText": "This site does not collect any information",
-    "cookiesButton": "Continue",
+    "cookiesText": "This site uses analytics tools to track website usage. By clicking 'Agree' you allow the collection of anonymous usage data.",
+    "cookiesButton": "Agree",
+    "cookiesDeclineButton": "Decline",
 
     "ftLi1": "What did the Apostles preach?",
     "ftLi2": "Is Jesus God?",
@@ -329,8 +331,9 @@
     "homeRef23": "Skutky apoštolů 9:17",
     "homeBold2": "Neseš i ty před pohany Jeho Jméno?",
 
-    "cookiesText": "Tato stránka neshromažďuje žádné údaje",
-    "cookiesButton": "Pokračovat",
+    "cookiesText": "Tato stránka používá analytické nástroje ke sledování návštěvnosti. Kliknutím na 'Souhlasím' povolíte shromažďování anonymních údajů o návštěvnosti.",
+    "cookiesButton": "Souhlasím",
+    "cookiesDeclineButton": "Odmítnout",
 
     "ftLi1": "Co hlásali apoštolové?",
     "ftLi2": "Je Ježíš Bůh?",

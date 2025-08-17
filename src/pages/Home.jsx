@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import HeaderHome from '../components/HeaderHome'
-import CookieConsent from 'react-cookie-consent'
+import PrivacyBanner from '../components/PrivacyBanner'
 import axios from 'axios'
 import Translation from '../Home.json'
 import { useStateContext } from '../context/StateContext'
@@ -38,6 +38,26 @@ const Home = () => {
     } catch (error) {
       console.error('Error tracking declined visitors:', error)
     }
+  }
+
+  const loadUmamiScript = () => {
+    if (!document.querySelector('script[data-website-id="8cf00e2b-81ce-48f5-93c3-82753097abaf"]')) {
+      const script = document.createElement('script')
+      script.defer = true
+      script.src = 'https://umami-p00gs00gwcwo00s4k4c4kgg8.pictusweb.com/script.js'
+      script.setAttribute('data-website-id', '8cf00e2b-81ce-48f5-93c3-82753097abaf')
+      document.head.appendChild(script)
+    }
+  }
+
+  const handleCookieAccept = () => {
+    setCookieAccept(true)
+    loadUmamiScript()
+    increaseVisitors()
+  }
+
+  const handleCookieDecline = () => {
+    setCookieAccept(false)
   }
 
   // const increaseVisitorsCount = async () => {
@@ -454,29 +474,11 @@ const Home = () => {
       </main>
       <Footer />
 
-      <CookieConsent
-        location="bottom"
-        style={{
-          background: '#492700',
-          color: '#ffffff',
-          fontSize: '18px',
-          textAlign: 'justify',
-        }}
-        buttonStyle={{
-          background: '#dddcd1',
-          color: '#492700',
-          fontSize: '20px',
-          padding: '2.5px 5px',
-        }}
-        buttonText={content.cookiesButton}
-        expires={365}
-        onAccept={() => {
-          setCookieAccept(true)
-          increaseVisitors()
-        }}
-      >
-        {content.cookiesText}
-      </CookieConsent>
+      <PrivacyBanner
+        content={content}
+        onAccept={handleCookieAccept}
+        onDecline={handleCookieDecline}
+      />
     </>
   )
 }
