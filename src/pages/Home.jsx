@@ -58,6 +58,7 @@ const Home = () => {
 
   const handleCookieDecline = () => {
     setCookieAccept(false)
+    increaseVisitors()
   }
 
   // const increaseVisitorsCount = async () => {
