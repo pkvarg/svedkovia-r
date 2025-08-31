@@ -176,6 +176,44 @@ const Jezis = () => {
           </p>
 
           <h3 className='text-center my-8'>
+            {content.jSub6_5}
+          </h3>
+
+          <p>
+            <span className='italic'>
+              {content.jVerse6_5a}
+            </span>
+            <span id='verse-ref'>
+              {' '}
+              {content.jRef6_5a}
+            </span>
+          </p>
+
+          <p className='mt-2'>
+            <span className='italic'>
+              {content.jVerse6_5b}
+            </span>
+            <span id='verse-ref'>
+              {' '}
+              {content.jRef6_5b}
+            </span>
+          </p>
+
+          <p className='mt-2 text-sm'>
+            {content.jText6_5}
+          </p>
+
+          <p className='mt-2 text-sm'>
+            <span className='italic'>
+              {content.jVerse6_5c}
+            </span>
+            <span id='verse-ref'>
+              {' '}
+              {content.jRef6_5c}
+            </span>
+          </p>
+
+          <h3 className='text-center my-8'>
             {content.jSub7}
             {/* Ježiš nie je anjel */}
           </h3>
