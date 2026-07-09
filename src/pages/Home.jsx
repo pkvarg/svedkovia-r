@@ -44,7 +44,7 @@ const Home = () => {
     if (!document.querySelector('script[data-website-id="8cf00e2b-81ce-48f5-93c3-82753097abaf"]')) {
       const script = document.createElement('script')
       script.defer = true
-      script.src = 'https://umami-p00gs00gwcwo00s4k4c4kgg8.pictusweb.com/script.js'
+      script.src = 'https://analytics.pictusweb.com/script.js'
       script.setAttribute('data-website-id', '8cf00e2b-81ce-48f5-93c3-82753097abaf')
       document.head.appendChild(script)
     }
